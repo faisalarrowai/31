@@ -1,0 +1,82 @@
+{
+  "activeAgent": false,
+  "currentLayout": {
+    "grid": {
+      "root": {
+        "type": "branch",
+        "data": [
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Code",
+                "ProjectSettings"
+              ],
+              "activeView": "Code",
+              "id": "1"
+            },
+            "size": 640
+          },
+          {
+            "type": "branch",
+            "data": [
+              {
+                "type": "leaf",
+                "data": {
+                  "views": [
+                    "Chat"
+                  ],
+                  "activeView": "Chat",
+                  "id": "2"
+                },
+                "size": 306
+              },
+              {
+                "type": "leaf",
+                "data": {
+                  "views": [
+                    "Preview"
+                  ],
+                  "activeView": "Preview",
+                  "id": "3"
+                },
+                "size": 306
+              }
+            ],
+            "size": 640
+          }
+        ],
+        "size": 612
+      },
+      "width": 1280,
+      "height": 612,
+      "orientation": "HORIZONTAL"
+    },
+    "panels": {
+      "Code": {
+        "id": "Code",
+        "contentComponent": "Code",
+        "title": "Code",
+        "renderer": "always"
+      },
+      "ProjectSettings": {
+        "id": "ProjectSettings",
+        "contentComponent": "ProjectSettings",
+        "title": "ProjectSettings"
+      },
+      "Chat": {
+        "id": "Chat",
+        "contentComponent": "Chat",
+        "title": "Chat",
+        "renderer": "always"
+      },
+      "Preview": {
+        "id": "Preview",
+        "contentComponent": "Preview",
+        "title": "Preview",
+        "renderer": "always"
+      }
+    },
+    "activeGroup": "1"
+  }
+}
